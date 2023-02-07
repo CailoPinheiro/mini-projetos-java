@@ -18,8 +18,4 @@ public class Cadastro {
 
         person1.mostrarStatus();
     }
-
-    public static int soma(int x, int y) {
-        return (x + y);
-    }
 }
