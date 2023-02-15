@@ -1,15 +1,33 @@
 package Entidade;
 
+import java.util.Scanner;
+
 public class Pessoa {
     private String nome;
     private String email;
-    private int idade;
+    private Integer idade;
 
-    public Pessoa(String nome, String email, int idade) {
+    Scanner leitor = new Scanner(System.in);
+
+    public Pessoa(String nome, String email, Integer idade) {
         this.nome = nome;
         this.email = email;
         this.idade = idade;
     }
+
+    /* 
+    public void cadastrar() {
+
+        System.out.println("Nome:");
+        leitor.nextLine();
+
+        System.out.println("E-mail:");
+        leitor.nextLine();
+
+        System.out.println("Idade:");
+        leitor.nextInt();
+    }
+    */
 
     public String getNome() {
         return nome;
@@ -31,8 +49,11 @@ public class Pessoa {
         return idade;
     }
 
-    public void setIdade(int idade) {
+    public void setIdade(Integer idade) {
         this.idade = idade;
     }
 
+    @Override public String toString() {
+        return "Nome: "+getNome()+"E-mail: "+getEmail()+"Idade: "+getIdade();
+    }
 }
