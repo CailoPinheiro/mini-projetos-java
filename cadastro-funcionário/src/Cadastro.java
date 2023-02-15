@@ -17,5 +17,6 @@ public class Cadastro {
         person1.setIdade(leitor.nextInt());
 
         person1.mostrarStatus();
+        
     }
 }
