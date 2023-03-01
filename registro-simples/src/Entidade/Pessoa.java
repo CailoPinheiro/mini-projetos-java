@@ -15,6 +15,8 @@ public class Pessoa {
         this.idade = idade;
     }
 
+    // Um menu seria exibido e a pessoa escolheria "1" ou "2" para, cadastrar ou pesquisar. Caso a escolha fosse "1", eu queria um método que cadastrasse a pessoa e colocaria seus dados dentro do vetor. Aqui eu tava testando uma maneira de cadastrar o usuário por meio de um método com uma ambientação (pra ficar mais amigável no terminal).
+
     /* 
     public void cadastrar() {
 
