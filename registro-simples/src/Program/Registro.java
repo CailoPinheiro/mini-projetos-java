@@ -53,5 +53,24 @@ public class Registro {
                 cont++;
             }
         }
+        
+
+        // Outra versão, utiizando boolean. Com o intuito de: caso não encontre, apenas exibir a mensagem que não foi encontrado. Ao contrário da versão anterior, que precisava dizer todas as posições em que não foi encontrado (Isso seria péssimo caso o vetor fosse muito grande).
+
+        /* 
+        boolean encontrado = false;
+        for (Pessoa vetor : pessoa) {
+            if (findName.equalsIgnoreCase(vetor.getNome())) {
+                System.out.println("Encontrado no índice: " + cont);
+                System.out.println("************************");
+                System.out.println(vetor);
+                encontrado = true;
+                cont++;
+            } else if (!encontrado){
+                System.out.println("Nenhum resultado para \""+findName+"\"");
+                break;
+            }
+        }
+        */
     }
 }
