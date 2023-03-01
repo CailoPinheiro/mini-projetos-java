@@ -54,6 +54,9 @@ public class Pessoa {
     }
 
     @Override public String toString() {
-        return "Nome: "+getNome()+"E-mail: "+getEmail()+"Idade: "+getIdade();
+        return "Nome: "+getNome()+
+        "\n"+"E-mail: "+getEmail()+
+        "\n"+"Idade: "+getIdade();
     }
 }
+ 
