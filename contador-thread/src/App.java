@@ -4,8 +4,8 @@ public class App {
         ThreadContador cont = new ThreadContador(true);
         ThreadContador reverseCont = new ThreadContador(false);
 
-      //  cont.start();
-        reverseCont.start();
         cont.start();
+        reverseCont.start();
+        
     }
 }
